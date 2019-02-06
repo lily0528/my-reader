@@ -46,7 +46,6 @@ class BooksApp extends React.Component {
         <div>
             <SearchBooks
             books={this.state.books}
-            componentDidMount={this.componentDidMount()}
             />
         </div>
       )}/>
